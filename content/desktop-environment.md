@@ -240,3 +240,9 @@ For example, to remove KDE:
 ```bash
 sudo apt autoremove --purge kde-standard
 ```
+
+You can also remove only the vanilla GNOME session without impacting pop-desktop or ubuntu-desktop
+
+``bash
+sudo apt autoremove --purge gnome-session
+```
